@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Strictly 4 Quick Links */}
+          {/* Platform Navigation Links */}
           <div className="md:col-span-3 space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#D97706]">
               Platform Navigation
@@ -45,7 +45,15 @@ export const Footer: React.FC = () => {
                   to="/"
                   className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
                 >
-                  <span>Home (Kiwi Trial #01)</span>
+                  <span>Home</span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/explore"
+                  className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
+                >
+                  <span>Explore Harvests (Kiwi Trial #01)</span>
                 </Link>
               </li>
               <li>
@@ -53,7 +61,7 @@ export const Footer: React.FC = () => {
                   to="/wholesale"
                   className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
                 >
-                  <span>Wholesale & Trade</span>
+                  <span>Wholesale &amp; Trade</span>
                 </Link>
               </li>
               <li>
@@ -61,7 +69,7 @@ export const Footer: React.FC = () => {
                   to="/farmers"
                   className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
                 >
-                  <span>For Smallholder Farmers & FPOs</span>
+                  <span>For Smallholder Farmers &amp; FPOs</span>
                 </Link>
               </li>
               <li>

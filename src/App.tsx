@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { Landing } from './pages/Landing';
 import { Home } from './pages/Home';
 import { CityBatchDrop } from './pages/CityBatchDrop';
 import { Wholesale } from './pages/Wholesale';
@@ -28,7 +29,8 @@ export function App() {
         <Navbar />
         <main className="flex-1">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Landing />} />
+            <Route path="/explore" element={<Home />} />
             <Route path="/batch" element={<CityBatchDrop />} />
             <Route path="/wholesale" element={<Wholesale />} />
             <Route path="/farmers" element={<Farmers />} />
