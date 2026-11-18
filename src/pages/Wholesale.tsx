@@ -365,7 +365,7 @@ export const Wholesale: React.FC = () => {
           <div className="bg-white rounded-3xl border-2 border-[#1B4332] shadow-xl p-6 sm:p-10">
             <div className="space-y-2 pb-6 mb-6 border-b border-[#1B4332]/15">
               <span className="text-xs font-bold uppercase tracking-wider text-[#D97706]">
-                Direct B2B & Export Desk • Antarva Collective Private Limited
+                Direct B2B &amp; Export Desk • Antarva Agri
               </span>
               <h2 className="font-serif-display text-2xl sm:text-3xl font-bold text-[#1B4332]">
                 Wholesale, Export &amp; Import Inquiry Form

@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { label: 'Home (Kiwi Trial)', path: '/' },
   { label: 'Wholesale & Trade', path: '/wholesale' },
   { label: 'For Farmers', path: '/farmers' },
-  { label: 'Who We Are', path: '/about' },
+  { label: 'About Us', path: '/about' },
 ];
 
 export const Navbar: React.FC = () => {
@@ -58,19 +58,11 @@ export const Navbar: React.FC = () => {
             <Sprout className="w-6 h-6 text-[#D97706]" />
           </div>
           <div className="flex flex-col">
-            <div className="flex items-baseline gap-2">
-              <span className="font-serif-display text-xl sm:text-2xl font-bold tracking-tight text-[#1B4332]">
-                Antarva Agri
-              </span>
-              <span className="hidden md:inline-block text-xs font-medium text-[#1F2937]/60 border-l border-[#1B4332]/25 pl-2">
-                by Antarva Collective
-              </span>
-            </div>
-            <span className="text-[11px] font-medium text-[#1F2937]/70 md:hidden">
-              by Antarva Collective
+            <span className="font-serif-display text-xl sm:text-2xl font-bold tracking-tight text-[#1B4332]">
+              Antarva Agri
             </span>
-            <span className="hidden md:block text-[11px] text-[#1B4332]/80 font-medium">
-              Soil-to-Market Regenerative Full-Stack
+            <span className="text-[11px] text-[#1B4332]/80 font-medium">
+              AI-Enabled Regenerative Agriculture
             </span>
           </div>
         </Link>

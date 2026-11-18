@@ -70,7 +70,6 @@ export interface BlockchainLedgerEntry {
 
 export const BRAND_CONFIG = {
   brandName: 'Antarva Agri',
-  parentCompany: 'Antarva Collective Private Limited',
   whatsappNumber: '919876543210', // Edit this single number to route all WhatsApp orders & inquiries
   supportEmail: 'agri@antarvacollective.com',
   headquarters: 'Guwahati & Bengaluru | Partner Orchards across Arunachal Pradesh, Assam & Meghalaya',

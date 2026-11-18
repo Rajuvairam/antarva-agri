@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
                   Antarva Agri
                 </span>
                 <span className="text-xs text-[#FAF9F6]/75">
-                  A Venture of {BRAND_CONFIG.parentCompany}
+                  AI-Enabled Agricultural Technology
                 </span>
               </div>
             </div>
@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
                   to="/about"
                   className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
                 >
-                  <span>Who We Are (Antarva Collective)</span>
+                  <span>About Us</span>
                 </Link>
               </li>
             </ul>
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
             </h3>
             <div className="space-y-2.5 text-sm text-[#FAF9F6]/85">
               <p className="font-semibold text-white">
-                {BRAND_CONFIG.parentCompany}
+                {BRAND_CONFIG.brandName}
               </p>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#D97706] shrink-0 mt-1" />
@@ -116,7 +116,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#FAF9F6]/70">
           <p>
-            © {new Date().getFullYear()} {BRAND_CONFIG.parentCompany}. All rights reserved.
+            © {new Date().getFullYear()} {BRAND_CONFIG.brandName}. All rights reserved.
           </p>
           <p className="text-center sm:text-right">
             Built for Living Soil, Smallholder Sovereignty & Conscious Consumption.
