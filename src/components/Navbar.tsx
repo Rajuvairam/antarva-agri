@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Sprout, Menu, X, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import { Sprout, Menu, X, ShieldCheck } from 'lucide-react';
 
 const NAV_LINKS = [
-  { label: 'Home', path: '/' },
+  { label: 'Showcase', path: '/' },
   { label: 'Explore Harvests', path: '/explore' },
   { label: 'Wholesale & Trade', path: '/wholesale' },
   { label: 'For Farmers', path: '/farmers' },
@@ -74,14 +74,13 @@ export const Navbar: React.FC = () => {
           ))}
         </nav>
 
-        {/* CTA Button */}
+        {/* Primary CTA Button */}
         <div className="hidden sm:flex items-center gap-3 shrink-0">
           <Link
             to="/explore"
-            className="inline-flex items-center gap-2 bg-[#D97706] hover:bg-[#b86305] text-white font-semibold text-sm px-4 xl:px-5 py-2.5 rounded-full shadow-sm hover:shadow transition-all whitespace-nowrap"
+            className="inline-flex items-center gap-2 bg-[#D97706] hover:bg-[#b86305] text-white font-semibold text-sm px-5 py-2.5 rounded-full shadow-sm hover:shadow transition-all whitespace-nowrap"
           >
-            <span>Explore Live Drop</span>
-            <ArrowUpRight className="w-4 h-4" />
+            <span>Explore →</span>
           </Link>
         </div>
 
@@ -124,8 +123,7 @@ export const Navbar: React.FC = () => {
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 bg-[#D97706] hover:bg-[#b86305] text-white font-semibold text-sm px-5 py-3 rounded-xl shadow-sm"
             >
-              <span>Explore Live Drop</span>
-              <ArrowUpRight className="w-4 h-4" />
+              <span>Explore →</span>
             </Link>
           </div>
         </div>
