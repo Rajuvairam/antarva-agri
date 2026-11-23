@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
                   to="/"
                   className="text-[#FAF9F6]/80 hover:text-white inline-flex items-center gap-1.5 transition-colors"
                 >
-                  <span>Showcase</span>
+                  <span>Home</span>
                 </Link>
               </li>
               <li>

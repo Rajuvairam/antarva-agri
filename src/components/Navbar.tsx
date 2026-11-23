@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { Sprout, Menu, X, ShieldCheck } from 'lucide-react';
 
 const NAV_LINKS = [
-  { label: 'Showcase', path: '/' },
+  { label: 'Home', path: '/' },
   { label: 'Explore Harvests', path: '/explore' },
   { label: 'Wholesale & Trade', path: '/wholesale' },
   { label: 'For Farmers', path: '/farmers' },
