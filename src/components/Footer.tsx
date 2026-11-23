@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sprout, ShieldCheck, MapPin, Mail, Phone, ArrowUpRight } from 'lucide-react';
+import { Sprout, ShieldCheck, Mail } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/cropData';
 
 export const Footer: React.FC = () => {
@@ -88,33 +88,38 @@ export const Footer: React.FC = () => {
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#D97706]">
               Corporate & Field Operations
             </h3>
-            <div className="space-y-2.5 text-sm text-[#FAF9F6]/85">
-              <p className="font-semibold text-white">
-                {BRAND_CONFIG.brandName}
-              </p>
-              <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-[#D97706] shrink-0 mt-1" />
-                <span>{BRAND_CONFIG.headquarters}</span>
+            <div className="space-y-3 text-sm text-[#FAF9F6]/85">
+              <div>
+                <p className="font-semibold text-white">
+                  Antarva Collective Private Limited
+                </p>
+                <p className="text-xs mt-0.5 text-[#FAF9F6]/75">DPIIT Recognized Startup • India</p>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#D97706] shrink-0" />
                 <a
-                  href={`mailto:${BRAND_CONFIG.supportEmail}`}
+                  href="mailto:people@antarvacollective.com"
                   className="hover:underline text-[#FAF9F6]/90"
                 >
-                  {BRAND_CONFIG.supportEmail}
+                  people@antarvacollective.com
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#D97706] shrink-0" />
-                <a
-                  href={`https://wa.me/${BRAND_CONFIG.whatsappNumber}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1 text-[#D97706] font-medium hover:underline"
+                <svg
+                  className="w-4 h-4 text-[#D97706] shrink-0"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
                 >
-                  <span>WhatsApp Direct Trade & Trial Desk</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                </svg>
+                <a
+                  href="https://www.linkedin.com/company/antarva-collective/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-[#FAF9F6]/90"
+                >
+                  LinkedIn Profile
                 </a>
               </div>
             </div>
